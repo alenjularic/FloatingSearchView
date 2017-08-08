@@ -336,6 +336,10 @@ public class FloatingSearchView extends RelativeLayout {
         mSearchInput.setText(text);
     }
 
+    public void append(CharSequence text) {
+        mSearchInput.append(text);
+    }
+
     public void setHint(CharSequence hint) {
         mSearchInput.setHint(hint);
     }
