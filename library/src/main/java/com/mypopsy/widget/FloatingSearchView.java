@@ -626,8 +626,6 @@ public class FloatingSearchView extends RelativeLayout {
 
     static private Drawable unwrap(Drawable icon) {
 
-        //android.support.v7.graphics.drawable.DrawableWrapper
-
         if(icon instanceof android.support.v7.graphics.drawable.DrawableWrapper)
             return ((android.support.v7.graphics.drawable.DrawableWrapper)icon).getWrappedDrawable();
 //        if(icon instanceof android.support.v4.graphics.drawable.DrawableWrapper)
